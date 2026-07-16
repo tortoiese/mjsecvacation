@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import SearchBar from '../components/SearchBar.jsx'
 import MovieGrid from '../components/MovieGrid.jsx'
-import { searchMovies, getPopularMovies } from '../api/tmdb.js'
+import { searchMovies, getPopularMovies } from '../api.js'
 
 export default function Home() {
   const [movies, setMovies] = useState([])

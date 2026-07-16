@@ -1,5 +1,5 @@
 import MovieGrid from '../components/MovieGrid.jsx'
-import { useWishlist } from '../context/WishlistContext.jsx'
+import { useWishlist } from '../WishlistContext.jsx'
 
 export default function Wishlist() {
   const { wishlist } = useWishlist()

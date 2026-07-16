@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { useWishlist } from '../context/WishlistContext.jsx'
+import { useWishlist } from '../WishlistContext.jsx'
 
 export default function Header() {
   const { wishlist } = useWishlist()
