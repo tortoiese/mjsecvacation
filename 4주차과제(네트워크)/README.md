@@ -1,8 +1,5 @@
 # Python Port Scanner
-
 네트워크 기초 4주차 과제 — `socket` 모듈로 만든 TCP 포트 스캐너입니다.
-
-> ⚠️ 본인 소유이거나 스캔이 허가된 호스트(127.0.0.1, 직접 띄운 서버, scanme.nmap.org)에만 사용하세요.
 
 ## 파일 구성
 
@@ -102,5 +99,11 @@ Scan finished in 20.30s (open: 3, closed: 997)
 
 ## 참고 자료
 
-- Python 공식 문서 — `socket`, `concurrent.futures`, `argparse`
+- Python 공식 문서 — `socket`, 
 - Nmap 공식 문서 — Port Scanning Techniques
+
+## 공부한 내용
+
+- 파이썬 socket 과 통신 포트가 왜 존재하는지
+- 통신 포트의 열림과 닫힘으로 발생하는 공격과 방어가 발생할 수 있는 내용들
+- 네트워크의 기초 와 관련된 지식들 + 과제 제출 이후 조금 더 공부해볼 필요가 있어보인다. 
