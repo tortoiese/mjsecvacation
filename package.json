@@ -1,0 +1,10 @@
+{
+  "name": "mjsecvacation",
+  "private": true,
+  "scripts": {
+    "install:app": "npm install --prefix \"3주차 과제\"",
+    "dev": "npm install --prefix \"3주차 과제\" && npm run dev --prefix \"3주차 과제\"",
+    "build": "npm install --prefix \"3주차 과제\" && npm run build --prefix \"3주차 과제\"",
+    "preview": "npm run preview --prefix \"3주차 과제\""
+  }
+}
